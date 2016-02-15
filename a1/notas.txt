@@ -1,0 +1,36 @@
+Script: podem ser
+	-Descartáveis (usados uma vez e "deitados fora" não é necessário ter muitos cuidados)
+	-continuidade (podem ser adicionados a módulos ou serem expandidos, convém ter algum cuidado, principalmente com as variáveis)
+	
+cola:
+	-módulo noutra Linguagem
+	-comando
+	
+podemos usar expressões regulares
+
+Niveis de uma linguagem Natural
+	-fonético
+	-léxico
+	-sintáctico
+	-semântico - defene o modelo semântico e transforma a frase nesse módulo
+	-pragmático - reação esperada
+	
+
+Linguagens Naturais são usadas em:
+	-tradução
+	-information retriever (I.R.)
+	-sumariedade
+	-spell checker
+	-correção gramatical
+	-"recortes de imprensa"
+	-sentiment analizes
+	-call centers, siri, QA (Question Answering)
+	
+Prática:
+necessário ter perl versão 5.14 ou mais
+para windows existe a possibilidade de utilizar o strawberry perl
+-script para contar palavras
+(-instalção de modulos para o perl)?
+	
+TPC
+Construir um texto de uma dada área (dada por grupo) com pelo menos  mil palavras
