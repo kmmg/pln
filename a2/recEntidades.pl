@@ -28,7 +28,7 @@ foreach my $p (sort {mycompare($a,$b)} keys %palavras){
 
 #ordena por número de ocorrências inverso e dentro delas alphabeticamente
 sub mycompare{my($a,$b)=@_;
-	if($palavras{$a} < $palavras{$b} {return 1});
-	if($palavras{$a} > $palavras{$b} {return -1});
+	if($palavras{$a} < $palavras{$b}) {return 1}
+	if($palavras{$a} > $palavras{$b}) {return -1}
 	return $a cmp $b;
 }
