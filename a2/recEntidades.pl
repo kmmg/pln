@@ -20,6 +20,14 @@ while (<>){
 #o sort ordena alphanumericamente
 #foreach my $p (sort keys %a){
 #para ordenar pelo número de ocorrências(valor) temos de passar o operador (exemplo: $palavras{$a} <=> $palavras{$b})
-foreach my $p (sort($palavras{$a} <=> $palavras{$b}) keys %palavras){
+#foreach my $p (sort($palavras{$a} <=> $palavras{$b}) keys %palavras){
+#podemos utilizar também uma função de comparação que nos sirva
+foreach my $p (sort( mycompare($a,$b) ) keys %palavras){
 	print "$p: $palavras{$p}\n";
+}
+
+sub mycompare{my($a,$b)=@_;
+	if($palavras{$a} < $palavras{$b} {return 1});
+	if($palavras{$a} > $palavras{$b} {return -1});
+	return $a cmp $b;
 }
